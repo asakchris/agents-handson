@@ -33,3 +33,9 @@ With uv, you do a few things differently:
 - You don't actually need to run `uv sync` because uv does this for you whenever you call `uv run`  
 - It's better not to edit pyproject.toml yourself, and definitely don't edit uv.lock. If you want to upgrade all your packages, run `uv lock --upgrade`
 - uv has really terrific docs [here](https://docs.astral.sh/uv/) - well worth a read!
+
+## CrewAI
+
+Create new crew using: `crewai create crew <crew_name>`
+
+Run crew using: `crewai run`

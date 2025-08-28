@@ -183,4 +183,3 @@ cython_debug/
 6_mcp/memory/*.db
 
 memory/
-output/
